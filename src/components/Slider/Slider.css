@@ -1,0 +1,31 @@
+.slider-container {
+    background-image: url("../../assets/overlay.png");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.slider-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 70%;
+}
+
+.slider-text h1 {
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.slider-text p {
+    font-size: 24px;
+    margin-top: 20px;
+}

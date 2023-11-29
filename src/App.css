@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --header-footer-color: #00A2E1;
+
+}
