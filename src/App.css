@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Epilogue', sans-serif;
+    /* border: 1px lightpink solid; */
 }
 
 a {
@@ -10,6 +11,11 @@ a {
 }
 
 :root {
+    --white: #fff;
     --header-footer-color: #00A2E1;
-
+    --input-color: #CED3D8;
+    --button-color: #3A5295;
+    --light-blue-background: #F6FAFD;
+    --homepage-text-color: #383838;
+;
 }

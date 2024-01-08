@@ -1,0 +1,30 @@
+.footer-container{
+    height: 374px;
+    background-color: var(--header-footer-color);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 6rem;
+    padding: 50px;
+}
+
+.footer-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.footer-email input {
+    height: 48px;
+    width: 80%; 
+    border: 1px var(--input-color);
+    border-radius: 12px;
+}
+
+.footer-socialize {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}

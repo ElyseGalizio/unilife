@@ -1,0 +1,12 @@
+.citycard-container {
+    border: 1px solid green;
+    margin: 20px;
+}
+
+.city-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}

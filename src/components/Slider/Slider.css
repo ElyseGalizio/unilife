@@ -5,19 +5,19 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    z-index: -1;
 }
 
 .slider-text {
     display: flex;
     flex-direction: column;
     text-align: center;
-    border: 1px solid red;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    width: 70%;
+    width: 80%;
 }
 
 .slider-text h1 {
