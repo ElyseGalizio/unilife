@@ -7,6 +7,10 @@ import axios from "axios";
 import compare from "../../assets/compare.png";
 import receipt from "../../assets/receipt.png";
 import search from "../../assets/search.png";
+import realEstate from "../../assets/realEstateIcon.png";
+import heartMain from "../../assets/heartMain.png";
+import manWithPhone from "../../assets/manWithPhone.png";
+import { Link } from "react-router-dom";
 
 
 function Homepage() {
@@ -45,8 +49,11 @@ function Homepage() {
       <h2>Student accommodations in our top cities</h2>
 
       <TopCities cities={cities} />
-      <button>See All Cities</button>
-      {/* connect SeeAllCities page with React Router */}
+      <Link className="city-button" to="/allcities">
+        See All Cities
+      </Link>
+      {/* style link to look like a button */}
+
 
       <div className="compare-container">
         {/* finish styling this section */}
@@ -71,6 +78,29 @@ function Homepage() {
             <p>Bills are included in all rent prices. No hidden fees.</p>
           </div>
         </div>
+      </div>
+      <div className="selection-container">
+        <div>
+          <div>
+            <img src={realEstate}></img>
+            <h2>Best Selection</h2>
+            <p>
+              Best selection of student accommodations. Never been easier to
+              find a home that's right for you.
+            </p>
+          </div>
+          <div>
+            <img src={heartMain}></img>
+            <h2>Your favorite</h2>
+            <p>
+              Shortlist your favourite properties and send enquiries in one
+              click.
+            </p>
+          </div>
+          <button>Search & Compare</button>
+        </div>
+        {/* this button scrolls up to city selection form*/}
+        <img src={manWithPhone}></img>
       </div>
     </div>
   );

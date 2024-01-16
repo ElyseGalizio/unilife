@@ -6,6 +6,7 @@
 } */
 
 .compare-container {
+    border: 1px solid red;
     height: 45vh;
     width: 90%;
     background-color: var(--light-blue-background);
@@ -13,6 +14,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 12px;
+    margin: 0 auto;
 }
 
 .compare-container-div {
@@ -24,10 +27,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: yellow;
     width: 30%;
+    height: ;
 }
 
 .compare-container-card p {
     color: var(--homepage-text-color);
+    text-align: center;
 }
 
+.compare-container-card img {
+    width: 100px;
+}
+
+.selection-container {
+    display: flex;
+}
