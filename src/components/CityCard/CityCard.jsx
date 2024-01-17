@@ -13,6 +13,7 @@ function CityCard({city}) {
     height: "300px",
     width: "400px",
     position: "relative",
+
   
     // zIndex: 0,
   };

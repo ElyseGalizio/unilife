@@ -5,6 +5,23 @@
     margin-top: 3em;
 } */
 
+#homepage-h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.city-button {
+    height: 48px;
+    width: 200px;
+    background-color: var(--button-color);
+    margin: 0 auto;
+    border-radius: 12px;
+    display: block;
+    text-align: center;
+    color: var(--white);
+    padding-top: 20px;
+}
+
 .compare-container {
     border: 1px solid red;
     height: 45vh;
@@ -29,7 +46,7 @@
     align-items: center;
     background-color: yellow;
     width: 30%;
-    height: ;
+    /* height: ; */
 }
 
 .compare-container-card p {

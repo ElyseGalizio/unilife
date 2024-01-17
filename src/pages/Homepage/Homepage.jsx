@@ -46,19 +46,22 @@ function Homepage() {
         desc="A simple and faster way to search for student accommodation"
       />
       {/* <SearchCity /> */}
-      <h2>Student accommodations in our top cities</h2>
+
+      <h2 id="homepage-h2">Student accommodations in our top cities</h2>
 
       <TopCities cities={cities} />
+  
       <Link className="city-button" to="/allcities">
         See All Cities
       </Link>
+      
       {/* style link to look like a button */}
-
 
       <div className="compare-container">
         {/* finish styling this section */}
         <h2>Compare all inclusive student homes.</h2>
         {/* the following div holds the search, compare, and bills div */}
+        {/* rewrite code to make these three items a component */}
         <div className="compare-container-div">
           <div className="compare-container-card">
             <img src={search}></img>
