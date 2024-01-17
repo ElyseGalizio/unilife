@@ -12,6 +12,8 @@ import heartMain from "../../assets/heartMain.png";
 import manWithPhone from "../../assets/manWithPhone.png";
 import { Link } from "react-router-dom";
 
+// This page needs the static content in the middle styled
+// create a component for the compare container and use props to display content
 
 function Homepage() {
   // https://unilife-server.herokuapp.com/cities

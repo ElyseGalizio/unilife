@@ -5,6 +5,8 @@ import twitter from "../../assets/twitter.png";
 import instagram from "../../assets/instagram.png";
 import copyright from "../../assets/copyright.png";
 
+// footer needs to be styled to better match the design
+
 function Footer() {
   return (
     <div>
