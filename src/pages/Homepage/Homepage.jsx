@@ -52,11 +52,11 @@ function Homepage() {
       <h2 id="homepage-h2">Student accommodations in our top cities</h2>
 
       <TopCities cities={cities} />
-  
+
       <Link className="city-button" to="/allcities">
         See All Cities
       </Link>
-      
+
       {/* style link to look like a button */}
 
       <div className="compare-container">
@@ -85,25 +85,28 @@ function Homepage() {
         </div>
       </div>
       <div className="selection-container">
-        <div>
-          <div>
-            <img src={realEstate}></img>
-            <h2>Best Selection</h2>
-            <p>
-              Best selection of student accommodations. Never been easier to
-              find a home that's right for you.
-            </p>
+        {/* how do I put the house and heart icons next to the text in this section? 
+        I may have added an unnecessary div here */}
+        <div className="selection-favorite">
+            <div>
+              <img src={realEstate}></img>
+              <h2>Best selection</h2>
+              <p>
+                Best selection of student accommodations. Never been easier to
+                find a home that's right for you.
+              </p>
+            </div>
+            <div>
+              <img src={heartMain}></img>
+              <h2>Your favorite</h2>
+              <p>
+                Shortlist your favourite properties and send enquiries in one
+                click.
+              </p>
+            </div>
+            <button>Search & Compare</button>
           </div>
-          <div>
-            <img src={heartMain}></img>
-            <h2>Your favorite</h2>
-            <p>
-              Shortlist your favourite properties and send enquiries in one
-              click.
-            </p>
-          </div>
-          <button>Search & Compare</button>
-        </div>
+        
         {/* this button scrolls up to city selection form*/}
         <img src={manWithPhone}></img>
       </div>
