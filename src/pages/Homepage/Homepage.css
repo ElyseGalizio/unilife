@@ -23,8 +23,8 @@
 }
 
 .compare-container {
-    border: 1px solid red;
-    height: 45vh;
+    /* border: 1px solid red; */
+    height: 35vh;
     width: 90%;
     background-color: var(--light-blue-background);
     display: flex;
@@ -38,15 +38,15 @@
 .compare-container-div {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 35px;
 }
 
 .compare-container-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: yellow;
     width: 30%;
-    /* height: ; */
+    gap: 15px;
 }
 
 .compare-container-card p {

@@ -63,7 +63,6 @@ function Homepage() {
         {/* finish styling this section */}
         <h2>Compare all inclusive student homes.</h2>
         {/* the following div holds the search, compare, and bills div */}
-        {/* rewrite code to make these three items a component */}
         <div className="compare-container-div">
           <div className="compare-container-card">
             <img src={search}></img>
@@ -84,6 +83,7 @@ function Homepage() {
           </div>
         </div>
       </div>
+      
       <div className="selection-container">
         {/* how do I put the house and heart icons next to the text in this section? 
         I may have added an unnecessary div here */}
@@ -92,8 +92,7 @@ function Homepage() {
               <img src={realEstate}></img>
               <h2>Best selection</h2>
               <p>
-                Best selection of student accommodations. Never been easier to
-                find a home that's right for you.
+                Best selection of student accommodations. Never been easier to find a home that's right for you.
               </p>
             </div>
             <div>
